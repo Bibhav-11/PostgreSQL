@@ -1,0 +1,1 @@
+\copy (SELECT * from Person LEFT JOIN Car ON Person.carid = Car.id) TO 'C:/Users/Bibhav/Desktop/result.csv' DELIMITER ',' CSV HEADER;

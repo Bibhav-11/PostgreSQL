@@ -1,0 +1,1 @@
+SELECT ROUND(price * 0.12, 2) AS Discount, ROUND(price - (price * 0.12), 2) AS PriceAfterDiscount FROM car;
